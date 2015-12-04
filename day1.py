@@ -3,11 +3,11 @@ line = "()()(()()()(()()((()((()))((()((((()()((((()))()((((())(((((((()((((((((
 floor = 0
 
 for i, c in enumerate(line):
-	if c == "(":
-		floor += 1
-	elif c == ")":
-		floor -= 1
-	
-	if floor == -1:
-		print(i + 1)
-		break
+    if c == "(":
+        floor += 1
+    elif c == ")":
+        floor -= 1
+
+    if floor == -1:
+        print(i + 1)
+        break
