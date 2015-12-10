@@ -45,3 +45,4 @@ print(find_wire_val("a"))
 wires.clear()
 wires = {"b": find_wire_val("a")}
 print(find_wire_val("a"))
+f.close()

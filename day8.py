@@ -13,3 +13,4 @@ for i in lines:
 
 print(num_chars - num_values)
 print(num_code)
+f.close()
